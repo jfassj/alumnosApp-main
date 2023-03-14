@@ -111,4 +111,36 @@ export const styles = StyleSheet.create({
 	calificaciones_cuerpo:{
 		fontSize:18,
 	},
+	contacto_container: {
+		flex: 1,
+		backgroundColor: colores.seis,
+		padding: 20,
+		aligItems: 'center',
+	},
+	contacto_asunto_input: {
+		width: '100%',
+		margin: 12,
+		borderWidth: 1,
+		padding:10,
+	},
+	contacto_cuerpo_input:{
+		width: '100%',
+		margin: 12,
+		borderWidth: 1,
+		padding: 10,
+	},
+	contacto_boton_texto: {
+		fontSize: 15,
+		color: colores.uno,
+		fontWeight: 'bold',
+		textAlign: 'center',
+	},
+	contacto_boton:{
+		backgroundColor: colores.tres,
+		width: 100,
+		height: 40,
+		borderRadius: 10,
+		justifyContent: 'center',
+		marginTop: 10,
+	},
 });
